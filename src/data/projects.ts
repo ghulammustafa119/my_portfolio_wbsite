@@ -33,6 +33,7 @@ export const projects: Project[] = [
     techStack: ["Next.js", "TypeScript", "Vercel"],
     github: "https://github.com/ghulammustafa119/hackathon-todo",
     liveDemo: "https://hackathon-todo-beryl.vercel.app",
+    image: "/todo.png",
   },
   {
     title: "AI Employee",
