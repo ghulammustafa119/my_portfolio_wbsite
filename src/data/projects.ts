@@ -21,7 +21,7 @@ export const projects: Project[] = [
     title: "Physical AI & Humanoid Robotics Book",
     description:
       "An interactive online book exploring physical AI and humanoid robotics concepts, hosted on GitHub Pages.",
-    techStack: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+    techStack: ["Docusaurus 3", "React", "TypeScript", "FastAPI", "Neon Postgres", "Qdrant", "Cohere"],
     github: "https://github.com/ghulammustafa119/physical-ai-humanoid-robotics-book",
     liveDemo: "https://ghulammustafa119.github.io/physical-ai-humanoid-robotics-book/",
     image: "/robotics-book.png",
