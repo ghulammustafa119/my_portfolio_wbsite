@@ -52,6 +52,15 @@ export const projects: Project[] = [
     image: "/secure-data.png",
   },
   {
+    title: "Resume Builder",
+    description:
+      "A progressive resume builder with form validation, dynamic content generation, and shareable links across milestone versions.",
+    techStack: ["HTML5", "CSS3", "TypeScript"],
+    github: "https://github.com/ghulammustafa119/hackathon",
+    liveDemo: "https://milestone5-ghulammustafabhutto-s-projects.vercel.app",
+    image: "/resume.png",
+  },
+  {
     title: "Personal Portfolio",
     description:
       "This portfolio website built with Next.js and Tailwind CSS, featuring smooth animations and a modern dark design.",
