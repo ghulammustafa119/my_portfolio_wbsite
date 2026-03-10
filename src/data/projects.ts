@@ -12,7 +12,7 @@ export const projects: Project[] = [
     title: "E-Commerce Website",
     description:
       "A full-featured e-commerce web application with product listings, cart functionality, and a modern responsive UI.",
-    techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+    techStack: ["Next.js 14", "TypeScript", "Tailwind CSS", "Sanity CMS", "Stripe", "Clerk", "Shadcn/ui"],
     github: "https://github.com/ghulammustafa119/e-commerce-website",
     liveDemo: "https://e-commerce-website-tau-azure.vercel.app",
     image: "/ecommerce.png",
