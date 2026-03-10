@@ -51,7 +51,7 @@ export default function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="flex justify-center gap-6"
+          className="flex flex-wrap justify-center gap-3"
         >
           {contacts.map((contact) => (
             <a
@@ -59,7 +59,7 @@ export default function Contact() {
               href={contact.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 rounded-lg border border-border px-5 py-3 text-sm text-muted transition-all hover:border-primary/40 hover:text-foreground"
+              className="flex items-center gap-1.5 rounded-lg border border-border px-3 py-2 text-xs md:px-5 md:py-3 md:text-sm text-muted transition-all hover:border-primary/40 hover:text-foreground"
             >
               <contact.icon size={18} />
               {contact.label}
