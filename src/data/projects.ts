@@ -30,8 +30,8 @@ export const projects: Project[] = [
     title: "Hackathon Todo App",
     description:
       "A sleek todo application built during a hackathon with task management features and clean UI.",
-    techStack: ["Next.js", "TypeScript", "Vercel"],
-    github: "https://github.com/ghulammustafa119/hackathon-todo",
+    techStack: ["Next.js", "TypeScript", "FastAPI", "Neon Postgres", "Cohere", "Docker", "Kubernetes", "Dapr"],
+    github: "https://github.com/ghulammustafa119/hackathon_todo",
     liveDemo: "https://hackathon-todo-beryl.vercel.app",
     image: "/todo.png",
   },
