@@ -6,17 +6,17 @@ import { Github, Linkedin, Mail } from "lucide-react";
 const contacts = [
   {
     label: "GitHub",
-    href: "https://github.com/yourusername",
+    href: "https://github.com/ghulammustafa119",
     icon: Github,
   },
   {
     label: "LinkedIn",
-    href: "https://linkedin.com/in/yourusername",
+    href: "https://www.linkedin.com/in/ghulam-mustafa-08b5092b3/",
     icon: Linkedin,
   },
   {
     label: "Email",
-    href: "mailto:your.email@example.com",
+    href: "mailto:ghulammustafabhutto77@gmail.com",
     icon: Mail,
   },
 ];
