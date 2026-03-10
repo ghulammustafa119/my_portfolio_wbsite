@@ -11,4 +11,5 @@ export const skills: Skill[] = [
   { name: "Agents SDK", icon: "🤖" },
   { name: "Git", icon: "🔀" },
   { name: "Docker", icon: "🐳" },
+  { name: "Kubernetes", icon: "☸️" },
 ];
