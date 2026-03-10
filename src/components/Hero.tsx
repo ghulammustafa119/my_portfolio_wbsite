@@ -4,12 +4,25 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="flex min-h-screen items-center justify-center px-6">
+    <section className="flex min-h-screen items-center justify-center px-6 pt-20">
       <div className="max-w-3xl text-center">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="mb-6 flex justify-center"
+        >
+          <img
+            src="/profile.jpg"
+            alt="Ghulam Mustafa"
+            className="h-32 w-32 rounded-full border-2 border-primary object-cover md:h-40 md:w-40"
+          />
+        </motion.div>
+
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.5, delay: 0.1 }}
           className="mb-4 text-sm tracking-widest text-primary uppercase"
         >
           Welcome to my portfolio
