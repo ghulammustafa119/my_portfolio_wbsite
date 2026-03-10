@@ -46,9 +46,10 @@ export const projects: Project[] = [
     title: "Secure Data Encryption",
     description:
       "A Streamlit-based encryption and decryption tool for securely handling sensitive data with multiple cipher algorithms.",
-    techStack: ["Python", "Streamlit", "Cryptography"],
-    github: "https://github.com/ghulammustafa119/secure-data-encryption",
-    liveDemo: "https://secure-data-encryption.streamlit.app",
+    techStack: ["Python", "Streamlit", "Fernet Encryption", "PBKDF2-HMAC", "JSON"],
+    github: "https://github.com/ghulammustafa119/secure_data_encryption",
+    liveDemo: "https://ghulammustafa119-secure-data-encr-secure-data-encryption-pgstwq.streamlit.app/",
+    image: "/secure-data.png",
   },
   {
     title: "Personal Portfolio",
