@@ -39,8 +39,9 @@ export const projects: Project[] = [
     title: "AI Employee",
     description:
       "An agent-based automation system that handles tasks autonomously using AI agents, tool integrations, and intelligent workflows.",
-    techStack: ["Python", "Agents SDK", "FastAPI", "OpenAI"],
-    github: "https://github.com/ghulammustafa119/ai-employee",
+    techStack: ["Python", "Groq", "Playwright", "Gmail API", "MCP Servers", "Node.js"],
+    github: "https://github.com/ghulammustafa119/ai_employee",
+    image: "/ai-employee.png",
   },
   {
     title: "Secure Data Encryption",
