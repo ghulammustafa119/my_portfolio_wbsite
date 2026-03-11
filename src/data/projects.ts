@@ -67,5 +67,6 @@ export const projects: Project[] = [
       "This portfolio website built with Next.js and Tailwind CSS, featuring smooth animations and a modern dark design.",
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
     github: "https://github.com/ghulammustafa119/my_portfolio_wbsite",
+    image: "/personal.png",
   },
 ];
