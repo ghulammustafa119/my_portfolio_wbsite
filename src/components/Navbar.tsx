@@ -58,7 +58,16 @@ export default function Navbar() {
               <li key={link.href}>
                 <a
                   href={link.href}
-                  onClick={() => setMobileOpen(false)}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setMobileOpen(false);
+                    const target = document.querySelector(link.href);
+                    if (target) {
+                      setTimeout(() => {
+                        target.scrollIntoView({ behavior: "smooth" });
+                      }, 100);
+                    }
+                  }}
                   className="text-sm text-muted transition-colors hover:text-foreground"
                 >
                   {link.label}
