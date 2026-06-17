@@ -15,7 +15,7 @@ export default function Hero() {
           <img
             src="/profile.jpg"
             alt="Ghulam Mustafa"
-            className="h-32 w-32 rounded-full border-2 border-primary object-cover md:h-40 md:w-40"
+            className="h-32 w-32 rounded-full border-2 border-primary object-cover object-top md:h-40 md:w-40"
           />
         </motion.div>
 
